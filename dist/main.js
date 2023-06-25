@@ -180,7 +180,7 @@ function getColor(d) {
                             "purple";
 }
 
-var legend = L.control({ position: 'bottomright' });
+var legend = L.control({ position: 'topleft' });
 
 legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend');

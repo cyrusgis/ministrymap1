@@ -2,7 +2,8 @@ var map = L.map('map', {
     center: [34.97896114027157, 15.033012362434118],
     zoom: 3,
     zoomControl: false,
-    measureControl: false
+    measureControl: false,
+    attributionControl: false
 });
 L.control.zoom(
     { position: 'topright' }
